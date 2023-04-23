@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body main #app {
+  margin: auto;
+}
+body main #app #score {
+  position: absolute;
+  font-size: 1.5em;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+}
+body main #app #result {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body main #app #result div {
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: 0.125em;
+  padding: 0.5em;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+  margin: 1em;
+}
+body main #app #result #tweet {
+  background-color: #1da1f2;
+  color: whitesmoke;
+  border-color: skyblue;
+}
+body main #app #result #restart {
+  background-color: greenyellow;
+  color: darkolivegreen;
+  border-color: yellowgreen;
+}
+body main #app #explanationButton {
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: 0.125em;
+  padding: 0.5em;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+  background-color: greenyellow;
+  color: darkolivegreen;
+  border-color: yellowgreen;
+  margin: 1em;
+}
+body main #app #explanation {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5em;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: 0.125em;
+  padding: 0.5em;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+  background-color: whitesmoke;
+  color: darkolivegreen;
+  border-color: darkolivegreen;
+}/*# sourceMappingURL=index.css.map */
