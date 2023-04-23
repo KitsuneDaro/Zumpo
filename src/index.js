@@ -170,6 +170,10 @@ class Main {
             constraint: {
                 stiffness: 0.2,
                 render: { visible: false }
+            },
+            collisionFilter: {
+                category: 0x0000,
+                mask: 0x0000
             }
         });
         Composite.add(this.engine.world, this.mouseCon);
