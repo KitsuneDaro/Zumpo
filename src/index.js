@@ -271,7 +271,7 @@ class Main {
                 }
             );
         } catch (error) {
-            window.location.reload();
+            //window.location.reload();
         }
 
         this.zundamon = {
