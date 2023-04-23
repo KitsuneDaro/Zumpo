@@ -83,7 +83,7 @@ class Main {
         this.score = 0;
 
         for (let key in this.ZUNDAMON_PATH) {
-            let img = new Image();
+            var img = new Image();
             img.src = this.ZUNDAMON_PATH[key];
         };
 
